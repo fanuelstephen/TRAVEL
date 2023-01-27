@@ -143,14 +143,19 @@ header.sticky {
   cursor: pointer;
 }
 .container-img {
-  height: 85px;
-  width: 85px;
+  /* height: 85px;
+  width: 85px; */
   padding: 15px;
   background-color: var(--bg-color);
   box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
-  border: 4px;
+  border: 1px;
+  border-radius: 50%;
   margin-bottom: 15px;
   cursor: pointer;
+}
+.container-img img {
+  width: 200px;
+  width: 200px;
 }
 .container h4 {
   font-size: 24px;
@@ -294,7 +299,7 @@ header.sticky {
   display: inline-block;
   width: 100%;
   padding: 20px 150px 20px 30px;
-  box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+  box-shadow: 5px 10px 30px rgb(85 85 85 / 50%);
   outline: none;
   border: none;
   border-radius: 15px;
@@ -422,6 +427,9 @@ header.sticky {
   .home {
     height: 88vh;
   }
+  .thum-img {
+    width: 304px;
+  }
   .navbar {
     position: absolute;
     top: 0;
@@ -460,6 +468,9 @@ header.sticky {
   }
   .newsletter form {
     width: 330px;
+  }
+  .thum-img {
+    width: 245px;
   }
   :root {
     --big-font: 3.8rem;
