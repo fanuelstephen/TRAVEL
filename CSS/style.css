@@ -462,10 +462,11 @@ header.sticky {
   }
 }
 /* =====ipad screen */
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .list {
     width: 100%;
   }
+
   .newsletter form {
     width: 330px;
   }
@@ -481,7 +482,16 @@ header.sticky {
     text-align: center;
   }
   .home {
-    height: 85vh;
+    height: 130vh;
     transition: 0.2s;
+  }
+}
+/* =====ipad screen */
+@media (max-width: 376px) {
+  .thum-img {
+    width: 334px;
+  }
+  .home {
+    height: 130vh;
   }
 }
